@@ -15,7 +15,7 @@ Simple scripts to install **Vaultwarden** with Docker and expose it through **zr
 
 ## Installation
 
-Download the installer:
+Run the installer with this command:
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/domiz918/vaultwarden-setup/main/install.sh | bash
@@ -34,7 +34,7 @@ The zrok access token is entered without displaying it on screen.
 
 After installation finishes, open the zrok URL printed by the installer and create your Vaultwarden account.
 
-Once your account has been created, disable public registration:
+Once your account has been created, you can disable public registration with this command (not necessary though recommended):
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/domiz918/vaultwarden-setup/main/stop-signups.sh | bash
